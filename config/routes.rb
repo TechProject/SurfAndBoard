@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get '/contact' => 'pages#contact'
   get '/weather' => 'pages#weather'
   root 'pages#home'
   

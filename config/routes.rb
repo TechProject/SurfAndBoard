@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-
-  get '/contact' => 'pages#contact'
+  resources :contacts
   get '/weather' => 'pages#weather'
   root 'pages#home'
   
